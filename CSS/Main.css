@@ -19,22 +19,22 @@ html {
 }
 
 body {
-    max-width: 100%;             /* высота body = высоте экрана */
+    max-width: 100%; /* высота body = высоте экрана */
     display: grid;
     background: url("../img/Winter.jpg") no-repeat center center;
 
 }
 
 .container {
-    max-width: 650px;              /* чтобы не растягивать на десктопе */
-    height: auto;                   /* адаптивная высота */
+    max-width: 650px; /* чтобы не растягивать на десктопе */
+    height: auto; /* адаптивная высота */
     margin: auto;
-    padding: 20px;                  /* внутренние отступы для мобильных */
+    padding: 20px; /* внутренние отступы для мобильных */
     position: relative;
 }
 
 h1 {
-    font-family:'Shantell Sans', sans-serif;
+    font-family: 'Shantell Sans', sans-serif;
     text-align: center;
     margin-top: 2em;
     font-size: 2em;
@@ -252,7 +252,7 @@ footer a:hover {
 
 footer .heart {
     font-size: 2em; /* размер увеличен в 2 раза */
-    color: red;      /* можно покрасить */
+    color: red; /* можно покрасить */
     vertical-align: middle; /* чтобы выровнять по тексту */
 }
 
@@ -267,7 +267,7 @@ footer .heart {
 }
 
 
-@media (min-width: 637px){
+@media (min-width: 637px) {
 
     .white {
         position: absolute;
@@ -277,6 +277,7 @@ footer .heart {
         left: 32%;
         top: 11%;
     }
+
     .red {
         position: absolute;
         background: var(--red);
@@ -285,6 +286,7 @@ footer .heart {
         height: 65px;
         width: 70px;
     }
+
     .blue {
         position: absolute;
         background: var(--blue);
@@ -295,7 +297,7 @@ footer .heart {
     }
 }
 
-@media (min-width: 490px) and (max-width: 637px){
+@media (min-width: 490px) and (max-width: 637px) {
 
     .white {
         position: absolute;
@@ -305,6 +307,7 @@ footer .heart {
         left: 35%;
         top: 4%;
     }
+
     .red {
         position: absolute;
         background: var(--red);
@@ -313,6 +316,7 @@ footer .heart {
         height: 65px;
         width: 70px;
     }
+
     .blue {
         position: absolute;
         background: var(--blue);
@@ -323,7 +327,7 @@ footer .heart {
     }
 }
 
-@media (min-width: 343px) and (max-width: 490px){
+@media (min-width: 343px) and (max-width: 490px) {
 
     .white {
         position: absolute;
@@ -333,6 +337,7 @@ footer .heart {
         left: 44%;
         top: -2%;
     }
+
     .red {
         position: absolute;
         background: var(--red);
@@ -341,6 +346,7 @@ footer .heart {
         height: 65px;
         width: 70px;
     }
+
     .blue {
         position: absolute;
         background: var(--blue);
@@ -351,11 +357,12 @@ footer .heart {
     }
 }
 
-@media (min-width: 320px) and (max-width: 343px){
-    .triangle{
+@media (min-width: 320px) and (max-width: 343px) {
+    .triangle {
         display: none;
     }
-    .string{
+
+    .string {
         display: none;
     }
 
