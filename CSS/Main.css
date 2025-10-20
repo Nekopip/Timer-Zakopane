@@ -231,14 +231,13 @@ footer {
     text-align: center;
     padding: 10px 0;
     background: transparent; /* можешь заменить, если нужен фон */
-    color: #BFC9CA; /* например универсальный цвет */
     font-family: 'Shantell Sans', cursive;
 }
 
 
 footer p {
     letter-spacing: 3px;
-    color: var(--red);
+
     font-size: 22px;
 }
 
